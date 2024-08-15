@@ -1,0 +1,46 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import util.Employee;
+
+public class Program01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		List <Employee> list = new ArrayList<>();
+		int quantity;
+		Integer id;
+		String name;
+		Double salary;
+		int func;
+		
+		
+		System.out.print("How many employees will be registered? ");
+		quantity = sc.nextInt();
+		for(int i=0; i<quantity; i++) {
+			System.out.printf("\nEmployee #%d:\n", (i+1));
+			System.out.print("Id:" );
+			id = sc.nextInt();
+			System.out.print("Name:" );
+			sc.nextLine();
+			name = sc.nextLine();
+			System.out.print("Salary:" );
+			salary = sc.nextDouble();
+			Employee emp = new Employee(id, name, salary);
+			list.add(emp);
+		}
+		System.out.printf("\nEnter the emplyee id that will have slary increase: ");
+		sc.nextInt();
+		System.out.printf("\nEnter the percentage: ");
+		sc.nextDouble();
+		
+		
+		sc.close();
+	}
+}

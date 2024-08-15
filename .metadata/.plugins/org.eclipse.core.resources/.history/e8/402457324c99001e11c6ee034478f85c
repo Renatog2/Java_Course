@@ -1,0 +1,9 @@
+
+public class exercicioWHILE02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		scanner sc = new Scanner(System.in);
+
+	}
+}

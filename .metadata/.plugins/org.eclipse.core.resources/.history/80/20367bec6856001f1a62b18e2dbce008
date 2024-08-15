@@ -1,0 +1,35 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class program10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		int tam = 0;
+		
+		
+		System.out.println("Quantos alunos serao digitados? ");
+		tam = sc.nextInt();
+		String[] vectNome = new String[tam];
+		double[] vectNota1 = new double[tam];
+		double[] vectNota2 = new double[tam];
+		for(int i=0; i<tam; i++) {
+			System.out.print("Digite nome, primeira e segunda nota do "+ (i+1) + "1o aluno: ");
+			sc.nextLine();
+			vectNome[i] = sc.nextLine();
+			vectNota1[i] = sc.nextDouble();
+			vectNota2[i] = sc.nextDouble();
+		}
+		System.out.println("Alunos aprovados:");
+		for(int i=0; i<tam; i++) {
+			
+		}
+		
+		
+		sc.close();
+	}
+}

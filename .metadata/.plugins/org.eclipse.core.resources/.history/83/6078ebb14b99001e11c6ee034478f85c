@@ -1,0 +1,9 @@
+
+public class exercicioWHILE {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int senha = 2002;
+		Scanner sc = new Scanner(System.in);
+	}
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class exercicioFOR03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = 0;
+		double real = 0.0;
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Digite o valor de N");
+		for()
+		sc.close();
+	}
+}

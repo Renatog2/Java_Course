@@ -1,0 +1,7 @@
+package util;
+
+public class people11 {
+	private double altura;
+	private String genero;
+	
+}

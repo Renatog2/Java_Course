@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class exercicioWHILE03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int alcool = 0;
+		int gasolina = 0;
+		int diesel = 0;
+		Scanner sc = new Scanner(System.in);
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class exercicioFOR02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = 0;
+		int x = 0;
+		int in = 0;
+		int out = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		sc.close();
+	}
+}

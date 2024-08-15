@@ -1,0 +1,26 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class exercicio_IF08 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		double salario = 0.00;
+		double taxa = 0.00;
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Digite o Salário: ");
+		salario = sc.nextDouble();
+		sc.close();
+		
+		
+		if(salario <= 2000) {
+			System.out.printf("Isento");
+		}else if(salario <= 3000) {
+			taxa = salario * 0.8;
+			System.out.printf("%.2f", taxa);
+		}
+	}
+}

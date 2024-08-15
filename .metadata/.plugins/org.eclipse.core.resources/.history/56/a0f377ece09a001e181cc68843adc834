@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class exercicioFOR01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 0;
+		int i = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Digite o valor de X");
+		x = sc.nextInt();
+		sc.close();
+		i = x % 2;
+		System.out.println(i);
+		
+		/*for(int i=0; i < x; i++) {
+			
+			System.out.println(x);
+		}*/
+	}
+}

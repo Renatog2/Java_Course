@@ -1,0 +1,41 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class program12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		String[] vectRooms = new String[9];
+		int quantity;
+		String name;
+		String email;
+		int room;
+		
+		System.out.print("How many rooms will be rented? ");
+		quantity = sc.nextInt();
+		for(int i=0; i<quantity; i++) {
+			System.out.print("\nRent #" + (i+1) + ":");
+			sc.nextLine();
+			System.out.print("Name: ");
+			name = sc.nextLine();
+			System.out.print("Email: ");
+			email = sc.nextLine();
+			System.out.print("Room: ");
+			room = sc.nextInt();
+			vectRooms[(room - 1)] = name + ", " + email;
+		}
+		System.out.printf("\nBusy rooms: \n");
+		for(int i=0; i<vectRooms.length; i++) {
+			if(vectRooms[i] != null) {
+				System.out.println((i + 1) + ": " + vectRooms[i]);
+			}
+		}
+		
+		
+		sc.close();
+	}
+}

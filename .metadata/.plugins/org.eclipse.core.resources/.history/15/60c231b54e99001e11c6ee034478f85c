@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class exercicioWHILE03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int alcool = 0;
+		int gasolina = 0;
+		int diesel = 0;
+		int x = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Digite o tipo de Combustível utilizado");
+		x = sc.nextInt();
+		while(x != 4) {
+		}
+		System.out.println("MUITO OBRIGADO");
+		sc.close();
+	}
+}

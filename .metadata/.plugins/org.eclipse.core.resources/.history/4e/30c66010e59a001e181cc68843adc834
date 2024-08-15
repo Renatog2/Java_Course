@@ -1,0 +1,31 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class exercicioFOR03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		int n = 0;
+		double a = 0.0;
+		double b = 0.0;
+		double c = 0.0;
+		double result = 0.0;
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Digite o valor de N");
+		n = sc.nextInt();
+		for(int i = 0; i < n; i++) {
+			System.out.println("Digite os valores: ");
+			a = sc.nextDouble();
+			b = sc.nextDouble();
+			c = sc.nextDouble();
+			
+			result = ((a * 2) + (b * 3) + (c * 5)) / 10;
+			System.out.printf("Resultado: %.2f\n", result);
+			result = 0.0;
+		}
+		sc.close();
+	}
+}

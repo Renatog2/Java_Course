@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class exercicioFOR05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = 0;
+		int fat = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Digite o valor de N");
+		n = sc.nextInt();
+		for(int i = 0; i < n; i++) {
+			fat = n * (n-i);
+		}
+		sc.close();
+	}
+}

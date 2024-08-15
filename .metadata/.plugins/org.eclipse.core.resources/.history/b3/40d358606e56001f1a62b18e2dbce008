@@ -1,0 +1,44 @@
+package util;
+
+public class people11 {
+	private double altura;
+	private String genero;
+	
+	
+	//Constructors
+	public people11(double altura, String genero) {
+		super();
+		this.altura = altura;
+		this.genero = genero;
+	}
+	
+	
+	//Getters and Setters
+	public double getAltura() {
+		return altura;
+	}
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+	public String getGenero() {
+		return genero;
+	}
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+	
+	
+	//Methods
+	public double menorAltura() {
+		//É preciso percorrer todos os dados armazenados em people11, para retornar quem tem a menor altura
+		return 0;
+	}
+	public double maiorAltura() {
+		//É preciso percorrer todos os dados armazenados em people11, para retornar quem tem a maior altura
+		return 0;
+	}
+	public double mediaAltura() {
+		//É preciso percorrer todos os dados armazenados em people11, para retornar media de altura
+		return 0;
+	}
+}

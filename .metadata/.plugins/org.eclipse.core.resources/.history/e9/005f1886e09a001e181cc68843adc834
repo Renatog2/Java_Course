@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class exercicioFOR01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		
+		x = sc.nextInt();
+		sc.close();
+		for(int i=0; i < 5; i++) {
+			System.out.println("Cabeça: " + i);
+		}
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class exercicioFOR01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Digite o valor de X");
+		x = sc.nextInt();
+		sc.close();
+		
+			for(int i = 1; x % 2 == 1;i = i +2) {
+		}
+	}
+}
