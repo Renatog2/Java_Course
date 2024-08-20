@@ -17,7 +17,6 @@
     <fullyQualifiedTypeName name="util.Employee"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="java.lang.InstantiationError"/>
-    <fullyQualifiedTypeName name="java.time.Instant"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="java.time.ZoneId"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
@@ -27,16 +26,24 @@
     <fullyQualifiedTypeName name="entities.Order"/>
     <fullyQualifiedTypeName name="entites.enums.OrderStatus"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="entites.Worker"/>
     <fullyQualifiedTypeName name="entites.enums.WorkerLevel"/>
     <fullyQualifiedTypeName name="entites.Department"/>
     <fullyQualifiedTypeName name="entites.HourContract"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="entites.Commnet"/>
     <fullyQualifiedTypeName name="entites.Comment"/>
     <fullyQualifiedTypeName name="entites.Post"/>
+    <fullyQualifiedTypeName name="java.time.Instant"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="util.Product"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="util.Client"/>
+    <fullyQualifiedTypeName name="util.OrderItem"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="util.enums.OrderStatus"/>
+    <fullyQualifiedTypeName name="util.Order"/>
 </qualifiedTypeNameHistroy>
