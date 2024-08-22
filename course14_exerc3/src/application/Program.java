@@ -37,13 +37,11 @@ public class Program {
 				System.out.print("Customs fee: ");
 				double fee = sc.nextDouble();
 				list.add(new ImportedProduct(name, price, fee));
-			}
-			if(op == 'u') {
+			} else if(op == 'u') {
 				System.out.print("Manufacture date (DD/MM/YYYY)");
 				Date contractDate = sdf.parse(sc.next());
 				list.add(new UsedProduct(name, price, contractDate));
-			}
-			if(op == 'c') {
+			} else {
 				list.add(new Product(name, price));
 			}
 		}
